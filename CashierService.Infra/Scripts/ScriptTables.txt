@@ -1,0 +1,15 @@
+﻿CREATE TABLE Transactions (
+    Id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    Amount DECIMAL(18, 2) NOT NULL,
+    eTransactionType VARCHAR(10) NOT NULL,
+    Date TIMESTAMP NOT NULL
+);
+
+CREATE TABLE Transactions (
+    Id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    Amount DECIMAL(18, 2) NOT NULL,
+    eTransactionType VARCHAR(10) NOT NULL,
+    Date TIMESTAMP NOT NULL
+);
+
+
